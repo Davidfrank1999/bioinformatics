@@ -18,7 +18,7 @@ assumption is that most genes are not differentially expressed.
 
 The histogram provides a visual representation of the distribution of adjusted p-values, which is a critical aspect of understanding the significance of genes in the dataset. This plot can help identify any patterns or thresholds in the distribution of p-values, aiding in the interpretation of the analysis results.
 
-![image1!](attachments/P_adj_value_distribution.png)
+![](attachments/P_adj_value_distribution.png)
 
 
 ----
@@ -48,7 +48,7 @@ vennDiagram(dT, circle.col=palette())
 The `vennDiagram()` function in R is typically used to create Venn diagrams to visualize the intersection and relationships between multiple sets of data.
 
 
-![[Untitled 2.png]]
+![](attachments/Untitled_2.png)
 
 
 ----
@@ -70,7 +70,7 @@ legend("topleft", groups, fill=palette(), bty="n")
 ```
 
 
-![[Untitled.png]]
+![](attachments/Untitled.png)
 
 #### Q-Q plot for t-statistic
 ```R
@@ -79,7 +79,7 @@ qqt(fit2$t[t.good], fit2$df.total[t.good], main="Moderated t statistic")
 ```
 The function `qqt()` is typically used to create a quantile-quantile plot (Q-Q plot) to assess whether the observed data follows a specific theoretical distribution, often the normal distribution.
 
-![[Untitled 1.png]]
+![](attachments/Untitled_1.png)
 Q-Q plots for the t-statistic to assess the goodness-of-fit of the statistical model and identify potential deviations from normality.
 
 #### UMAP plot (dimensionality reduction)
@@ -111,16 +111,16 @@ ggplot(ump_df, aes(x = V1, y = V2, color = Group)) +
 
 ```
 
-![[Pasted image 20240208182846.png]]
+![](attachments/Pasted_image_20240208182846.png)
 #### Mean-varience
 The `plotSA` function helps visualize the mean-variance trend in your data, which can indicate whether precision weights are needed for your analysis. Here's how you can utilize it:
 
-```r
+```R
 # mean-variance trend plot
 plotSA(fit2, main = "Mean variance trend, GSE13355")
 ```
 
-![[Pasted image 20240208183045.png]]
+![](attachments/Pasted_image_20240208183045.png)
 
 This command will generate a plot that displays the mean-variance relationship in your data. It can be helpful in determining if there's a need to apply precision weights to your linear model fit (`fit2`). If the relationship between the mean and variance appears to be non-constant, it might suggest that the data requires precision weights for a more accurate analysis.
 
@@ -153,6 +153,6 @@ Here's what the code for the volcano plot is doing:
   - `names=rep('+', nrow(fit2))`: Sets the names of the points in the plot. In this case, it's setting them all to `+`.
 
 The volcano plot is a common visualization tool used in genomics to visualize the results of differential expression analysis. It typically plots the log fold change (logFC) on the x-axis against the -log10 of the adjusted p-value (or another measure of statistical significance) on the y-axis. Points that are significantly differentially expressed are often highlighted in such plots.
-![[Pasted image 20240208175148.png]]
+![](attachments/Pasted_image_20240208175148.png)
 
 ---
