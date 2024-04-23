@@ -18,7 +18,7 @@ assumption is that most genes are not differentially expressed.
 
 The histogram provides a visual representation of the distribution of adjusted p-values, which is a critical aspect of understanding the significance of genes in the dataset. This plot can help identify any patterns or thresholds in the distribution of p-values, aiding in the interpretation of the analysis results.
 
-![[Pasted image 20240208173441.png]]
+![image1!](attachments/P_adj_value_distribution.png)
 
 
 ----
