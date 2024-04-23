@@ -72,7 +72,7 @@ ggplot(results_sig, aes(x = Log2FC, y = -log10(adj.P.Val))) +
 
 #### volcano plot
 
-![[Pasted image 20240216180858.png]]
+![](attachments/Pasted_image_20240216180858.png)
 
 
 ### Filtering genes based on Log2 Fold chage
@@ -129,7 +129,7 @@ res_enrichgo <-enrichGO(gene = combined_subset$entrez_ids,
 treeplot(pairwise_termsim(res_enrichgo))
 ```
 
-![[Pasted image 20240216235309.png]]
+![](attachments/Pasted_image_20240216235309.png)
 
 ##### GSEA enrichment plot
 
@@ -148,7 +148,8 @@ library(enrichplot)
 gseaplot2(res_gsea, geneSetID = 1:30, subplots = 1:2)
 ```
 
-![[Pasted image 20240216235929.png]]GSEAplot of GO pathway showing enrichment genes in the terms
+![](attachments/Pasted_image_20240216235929.png)
+GSEAplot of GO pathway showing enrichment genes in the terms
 
 ```R
 res_enrichKEGG <- enrichKEGG(
@@ -165,6 +166,6 @@ treeplot(pairwise_termsim(res_enrichKEGG))
 ##### **KEGG Pathway Analysis**: 
 KEGG pathway analysis was performed to identify pathways enriched with DEGs, providing insights into the biological pathways affected by experimental conditions. A Treeplot was made based on KEGG pathway enrichment analysis.
 
-![[Pasted image 20240216235552.png]]
+![](attachments/Pasted_image_20240216235552.png)
 
 ----
