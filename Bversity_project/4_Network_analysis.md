@@ -1,10 +1,10 @@
 - **Network Analysis Tools**: Network analysis tools such as Cytoscape or STRING were utilized to construct and visualize protein-protein interaction networks of DEGs.
 - **Key Functional Interactions**: Key functional interactions within the network were identified using topological algorithms such as degree centrality, betweenness centrality, and clustering coefficient.
-![[Pasted image 20240217000310.png]]
+![](attachments/Pasted_image_20240217000310.png)
 **Figure : Protein-protein network with Pathway annotation
 
 
-![[string_interactions_short.tsv.png]]
+![](attachments/string_interactions_short.tsv.png)
 **Figure : Protein -protein network of the significant genes**
 Sting database: The significant genes were analysied using Sting database for network analysis.
 The minimum required interaction score of network edge confidence was set to be 0.700.
@@ -12,7 +12,7 @@ The minimum required interaction score of network edge confidence was set to be 
 
 The Top pathways in the analysis were selected and uploaded into cytoscape for futher analysis.
 
-![[Pasted image 20240217121743.png]]
+![](attachments/Pasted_image_20240217121743.png)
 
 Cytoscape visualization: -->
 - The network from string database, the differential expression analysis from R and the Pathway analysis were loaded in the cytoscape.
@@ -61,20 +61,20 @@ The results are
 
 The top 15 Hub genes are high lighted with purple border node color.
 
-![[string_interactions_short.tsv_MCC_top15 1.png]]
+![](attachments/string_interactions_short.tsv_MCC_top15_1.png)
 **Figure : Top 15 Hub genes protein protein network**. Continuous mapping- blue color, size continuous mapping - Degree unDir
 
 
 
 
 
-![[Pasted image 20240219191955.png]]
+![](attachments/Pasted_image_20240219191955.png)
 **Figure : Pathways that correspond to the Hub genes**
 
-![[Pasted image 20240219192117.png]]
+![](attachments/Pasted_image_20240219192117.png)
 **Figure : Pathways that correspond to the Hub genes**
 
-![[Pasted image 20240219192559.png]]
+![](attachments/Pasted_image_20240219192559.png)
 **Figure : Pathway network of the Hub genes**
 
 
