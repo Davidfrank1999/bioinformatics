@@ -2,7 +2,7 @@ Read assignment_6.md for details.(compiled report)
 
 
 ---
-assi6_qiime2_code.ipynb
+-->assi6_qiime2_code.ipynb
 
 Note:
 ! in the start of each code is used when running terminal code in the jubytor notebook (or) anyother python IEDs.
