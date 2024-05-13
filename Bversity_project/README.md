@@ -2,11 +2,11 @@ This folder contains the steps taken for the course-project in Bversity.
 
 ## Tools used in this project
 
-R programming
-Cytoscape
+R programming,
+Cytoscape,
 
-GEO database
-String database
+GEO database,
+String database.
 
 # Steps involved 
 
