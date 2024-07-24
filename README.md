@@ -49,7 +49,7 @@ Arthritis.</p>
 
 ## Complete Analysis
 
-[Full Report]((David_Franklin)_Batch#1_Bioinformatics_Placement_(Project_Report).pdf)
+[Full Report](Bversity_project/(David_Franklin)_Batch#1_Bioinformatics_Placement_(Project_Report).pdf)
 
 [Powerpoint presentation](Bversity_project/(David_Franklin)_Batch#1_Bioinformatics_Placement_Program_Presentation.pptx)
 
